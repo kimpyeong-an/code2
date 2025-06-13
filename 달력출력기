@@ -1,0 +1,6 @@
+import calendar
+
+year = int(input("연도를 입력하세요 (예: 2025): "))
+month = int(input("월을 입력하세요 (1-12): "))
+
+print("\n" + calendar.month(year, month))

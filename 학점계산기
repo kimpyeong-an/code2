@@ -1,0 +1,11 @@
+scores = []
+
+n = int(input("과목 수: "))
+
+for i in range(n):
+    score = float(input(f"{i+1}번째 성적: "))
+    scores.append(score)
+
+avg = sum(scores) / len(scores)
+
+print("평균:", round(avg, 2))
